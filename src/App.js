@@ -41,8 +41,8 @@ function App() {
         title = {expenses[i].title}
         amount = {expenses[i].amount}
         LocationOfExpenditure = {expenses[i].LocationOfExpenditure}
-        date = {expenses[i].date}>
-      </ExpenseItem>
+        date = {expenses[i].date}
+         />
       ))}
     </div>
   );
